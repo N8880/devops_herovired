@@ -41,3 +41,12 @@ def simple_interest(principal, rate, time):
 
 print("\n=== Simple Interest ===")
 print(f"SI: {simple_interest(1000, 5, 3)}")
+
+# work in progress
+# Feature 5: BMI Calculator
+def bmi_calculator(weight, height):
+    bmi = weight / (height ** 2)
+    return round(bmi, 2)
+
+print("\n=== BMI Calculator ===")
+print(f"BMI: {bmi_calculator(70, 1.75)}")
