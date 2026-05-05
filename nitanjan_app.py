@@ -34,3 +34,10 @@ def fahrenheit_to_celsius(f):
 print("\n=== Temperature Converter ===")
 print(f"25°C = {celsius_to_fahrenheit(25)}°F")
 print(f"98.6°F = {fahrenheit_to_celsius(98.6)}°C")
+
+# Feature 4: Simple interest calculator
+def simple_interest(principal, rate, time):
+    return (principal * rate * time) / 100
+
+print("\n=== Simple Interest ===")
+print(f"SI: {simple_interest(1000, 5, 3)}")
